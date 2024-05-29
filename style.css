@@ -1,0 +1,31 @@
+/*
+Theme Name: Skolka
+Theme URI: https://skolka.themezinho.net/
+Author: themezinho
+Author URI: https://themeforest.net/user/themezinho
+Description:  Multi-Purpose WooCommerce Theme
+Version: 1.0.0
+Requires at least: 5.0
+Tested up to: 5.8
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: skolka
+Tags: blog, custom-logo, custom-menu, editor-style, featured-images, sticky-post, theme-options
+*/
+
+html {
+	scroll-behavior: smooth;
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+
+	html {
+		scroll-behavior: auto;
+	}
+}
+
+body {
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+}
